@@ -1,0 +1,73 @@
+PROGRAM: Rock Paper Scissors
+
+1. Show a welcome message to the game:
+   print("Welcome to the Rock Paper Scissors game!")
+
+2. Ask for player 1 name:
+   player1_name = input("Player 1, please enter your name: ")
+
+3. Ask for player 2 name:
+   player2_name = input("Player 2, please enter your name: ")
+
+4. Initialize the score for both players:
+   player1_score = 0
+   player2_score = 0
+
+5. Start the game loop:
+   while True:
+   
+       5.1 Ask for player 1 choice (rock, paper, or scissors):
+           player1_choice = input(f"{player1_name}, please choose rock, paper, or scissors: ")
+           
+       5.2 Ask for player 2 choice (rock, paper, or scissors):
+           player2_choice = input(f"{player2_name}, please choose rock, paper, or scissors: ")
+           
+       5.3 Evaluate the choices of the players and update the score:
+           
+           5.3.1 If player1_choice is equal to player2_choice:
+                print("Tie!")
+                
+           5.3.2 If player1_choice is rock and player2_choice is scissors or 
+                player1_choice is paper and player2_choice is rock or 
+                player1_choice is scissors and player2_choice is paper:
+                print(f"{player1_name} wins!")
+                player1_score += 1
+                
+           5.3.3 Else:
+                print(f"{player2_name} wins!")
+                player2_score += 1
+                
+       5.4 Show the score of the game:
+           print(f"{player1_name} score: {player1_score}")
+           print(f"{player2_name} score: {player2_score}")
+           
+       5.5 Ask if players want to play again:
+           play_again = input("Do you want to play again? (y/n)")
+           
+           5.5.1 If play_again is 'n':
+                break
+                
+   6. Show a "Thank you for playing" message:
+       print("Thank you for playing!")
+       
+7. End the program
+
+
+
+or
+
+
+PROGRAM: Rock Paper Scissors
+
+1. Show a welcome message to the game
+2. Ask for player 1 name
+3. Ask for player 2 name
+4. Initialize the score for both players
+5. Ask for player 1 choice (rock, paper, or scissors)
+6. Ask for player 2 choice (rock, paper, or scissors)
+7. Evaluate the choices of the players and update the score
+8. Show the score of the game
+9. Ask if players want to play again
+10. If yes, go back to step 5
+11. If no, show a Thank you for playing message
+12. End the program

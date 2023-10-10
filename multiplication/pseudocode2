@@ -1,0 +1,18 @@
+1. PRINT "Welcome to the Multiplication Table Generator!" 
+    - This step displays a welcome message to the user.
+2. GET username 
+    - This step prompts the user to enter their name.
+3. PRINT "Hello, (username)! Let's generate a multiplication table."
+    - This step greets the user by name and explains the purpose of the program.
+4. GET number 
+    - This step prompts the user to enter a number for which they want to generate a multiplication table.
+5. PRINT "You have entered (number). Let's proceed."
+    - This step confirms the number entered by the user and initiates the next step.
+6. FOR i = 1 to times+1 
+    - This step starts a loop to generate the multiplication table for the entered number.
+7. product = number * i
+    - This step calculates the product of the number and the current iteration.
+8. PRINT (number) + "x" + (i) + "=" + (product)
+    - This step prints the multiplication statement.
+9. PRINT "Thank you for using the Multiplication Table Generator, (username)!"
+    - This step displays a thank you message to the user.

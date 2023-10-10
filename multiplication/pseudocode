@@ -1,0 +1,11 @@
+1. Define a function called "generate_multiplication_table" that takes in two parameters "multiplier" and "times"
+2. Print a welcome message
+3. Ask the user to enter their name and save it as "username"
+4. Print a greeting message using the "username" variable
+5. Ask the user to enter a number and save it as "number"
+6. Print a confirmation message using the "number" variable
+7. Use a for loop that runs for "times" number of iterations
+    a. Within the for loop, calculate the product of "number" and the current iteration and save it as "product"
+    b. Print the "number", current iteration, and "product" in the format "number x iteration = product"
+8. Print a thank you message using the "username" variable
+9. Call the function with the desired "multiplier" and "times" values

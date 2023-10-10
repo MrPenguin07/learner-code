@@ -1,0 +1,20 @@
+1. import string
+2. Define a function "caesar_cipher" which takes in 3 inputs: plaintext, key, action
+3. Convert the plaintext to uppercase
+4. Remove spaces from the plaintext
+5. Convert fullstop to "X"
+6. Create an empty list "ciphertext"
+7. Check if the action is "encrypt" or "decrypt"
+8. If it is neither, return an error message
+9. Loop through each character in the plaintext
+10. If the character is a letter, encrypt or decrypt it depending on the action and key
+11. Add the encrypted/decrypted letter to the "ciphertext" list
+12. If the character is not a letter, add it to the "ciphertext" list without encrypting/decrypting
+13. Join the list of characters back into a string
+14. Return the ciphertext or plaintext
+15. Create a while loop
+16. Ask the user if they want to encrypt, decrypt or quit
+17. If they enter "encrypt" or "e", call the "caesar_cipher" function with the plaintext, key and action "encrypt" and print the ciphertext
+18. If they enter "decrypt" or "d", call the "caesar_cipher" function with the plaintext, key and action "decrypt" and print the plaintext
+19. If they enter "q" or "quit", exit the program
+20. If they enter anything else, print an error message
