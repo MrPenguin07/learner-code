@@ -1,5 +1,27 @@
 # learner-code
 Various learning utilities/games to demo coding.
+```
+ .
+├──  caesar-cipher
+│  ├──  cipher.py
+│  └──  pseudocode
+├──  multiplication
+│  ├──  multiply.py
+│  ├──  multiply2.py
+│  ├──  pseudocode
+│  └──  pseudocode2
+├──  rockpaperscissors
+│  ├──  assignment
+│  │  ├──  2player.py
+│  │  └──  pseudocode
+│  └──  p2-random
+│     └──  singleplayer.py
+├──  sha512sum
+│  ├──  explanation.odt
+│  └──  sha512.py
+├──  LICENSE
+└──  README.md
+```
 
 If they look like homework, that's because they were :)
 
